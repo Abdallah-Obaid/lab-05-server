@@ -19,10 +19,10 @@ server.get('/test',(request,response)=>{
 
 // http://localhost:3000/data
 server.get('/data', (request, response) => {
-  let family = [
-    {name:"atallah"},
-    {name:"Messina"},
-    {name:"Razan"}
+  let blablabla = [
+    {name:"koko"},
+    {name:"wawa"},
+    {name:"teto"}
   ];
-  response.json(family);
+  response.json(blablabla);
 });
